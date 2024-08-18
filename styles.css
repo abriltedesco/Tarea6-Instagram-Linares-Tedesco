@@ -6,6 +6,7 @@ body {
     display: block;
 }
 
+/*------------------------------*/
 header {
     padding: 5px;
     border-bottom: 1px solid #403f3f;
@@ -22,6 +23,8 @@ header {
 }
 /*---------------------------*/
 
+
+/*---------------------------*/
 #info_perfil {
     display: inline-block;
     align-items: center;
@@ -102,6 +105,15 @@ header {
     width:49%;
     float:right;
 } 
+/*--------------------*/
+
+/*----------------*/
+#separador img{
+    width:98%;
+    margin:2px;
+    justify-content: center;
+}
+/*----------------*/
 
 /*-------------------*/
 .cuadricula {
@@ -116,6 +128,8 @@ header {
 }
 /*------------------*/
 
+
+/*------------------*/
 footer {
     position: fixed;
     left: 0;
@@ -150,7 +164,7 @@ footer {
     height: 24px;
     border-radius: 50%;
 }
-
+/*------------------*/
 
 @media (min-width: 600px) {
     header {
@@ -171,19 +185,18 @@ footer {
         padding:10px;
     }
 
-    .ftPerfil img {
-        width: 150px;
-        height: 150px;
-        margin-right: 15px;
-        margin-bottom: 0;
+    .info_perfil{
+        height:50%;
     }
 
-    #info_perfil2 {
-        text-align: left;
+    .info_perfil img{
+        width:270px;
+        height:270px;
+        margin: 0px 0px 0px 0px;
     }
 
     .nums {
-        justify-content: flex-start;
+        justify-content: space-around;
     }
 
     .nums li {
@@ -201,6 +214,17 @@ footer {
     .menu img, .fotoperfil img {
         width: 28px;
         height: 28px;
+    }
+
+    #separador{
+        justify-content: center;
+        align-items:center;
+        
+    }
+
+    #separador img{
+        width:50%;
+        margin:2px;
     }
 }
 
