@@ -39,13 +39,12 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    margin: 10px 0px 0px 8px;
+    margin: 15px 0px 0px 10px;
     float: left;
 }
 
 #info_perfil2 {
-    display: flex;
-    width: 65%;
+    width: 70%;
     text-align: center;
     color:#ffffff;
     float: right;
@@ -53,6 +52,7 @@ header {
 }
 
 .nums {
+    display: flex;
     font-size: 13px;
     margin:0px;
     padding-left:0px;
