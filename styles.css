@@ -6,6 +6,7 @@ body {
     display: block;
 }
 
+
 /*------------------------------*/
 header {
     padding: 5px;
@@ -44,7 +45,7 @@ header {
 }
 
 #info_perfil2 {
-    width: 70%;
+    width: 75%;
     text-align: center;
     color:#ffffff;
     float: right;
@@ -53,9 +54,9 @@ header {
 
 .nums {
     display: flex;
-    font-size: 13px;
-    margin:0px;
-    padding-left:0px;
+    font-size: 14px;
+    margin: 0px;
+    padding-left: 0px;
     list-style-type: none;
     justify-content: space-evenly;   
 }
@@ -68,7 +69,7 @@ header {
 
 .biografia h2 {
     font-size: 13PX;
-    margin:0px;
+    margin: 0px;
 }
 
 .biografia a {
